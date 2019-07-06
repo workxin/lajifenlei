@@ -1,0 +1,13 @@
+<view class="container">
+<view class="inputView">
+<input class="input" type="text" placeholder="废弃物名称" placeholder-style="color: #FFF" bindblur="query" bindconfirm="query" confirm-type="done" value="{{inpvalue}}" />
+</view>
+<button  class="button" bindtap="query">查看</button>
+<view class="result">
+<text>名称：{{name}}</text>
+<text>分类：{{type}}</text>
+<text>解释：{{explain}}</text>
+<text>包含物品：{{contain}}</text>
+<text>投放提示：{{tip}}</text>
+</view>
+</view>
