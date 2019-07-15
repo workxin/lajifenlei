@@ -1,0 +1,31 @@
+<view class="photo-add">
+  <view class="page-body-info">
+        <block wx:if="{{img}}">
+         <view class="image-box">
+          <image src="{{img}}" class="video" bindtap="addapimg"></image>
+  </view>     
+        </block>
+        <block wx:else>
+         <view class="image-plus image-plus-nb" bindtap="addapimg">
+            <view class="image-plus-horizontal"></view>
+            <view class="image-plus-vertical"></view>
+          </view>
+          <view class="image-plus-text">图像识别</view>
+        </block>
+      </view>
+<view style="margin-top: {{margintop}}rpx;">
+ <view class="title">识别结果</view>
+<view class="weui-cells">
+     <view class="weui-cell">
+                <view class="weui-cell__bd">
+        <view wx:for="{{bindSource}}">
+    <view id="{{index}}" bindtap="query" class="weui-cells__title">{{item.name}}<text>{{item.trust}}</text><text wx:if="{{item.lajitype == 0}}">可回收垃圾</text><text wx:elif="{{item.lajitype == 1}}">有害垃圾</text><text wx:elif="{{item.lajitype == 2}}">厨余（湿）垃圾</text><text wx:elif="{{item.lajitype == 3}}">其他（干）垃圾</text></view>
+  </view>
+                </view>
+            </view>
+             </view>
+
+    <view class="text">具体返回参数请参考接口文档和相关说明</view>
+
+</view>
+</view>
