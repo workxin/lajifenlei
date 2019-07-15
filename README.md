@@ -2,7 +2,7 @@
 
 通过调用天行数据垃圾分类接口实现的微信分类小程序，支持搜索框下拉联想和图像识别
 
-垃圾分类API接口：https://www.tianapi.com/apiview/97
+垃圾分类文字版API接口：https://www.tianapi.com/apiview/97
 
 垃圾分类图像版API接口：https://www.tianapi.com/apiview/101
 
