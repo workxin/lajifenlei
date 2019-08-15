@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-	"pages/upload/upload"
+    "pages/hot/hot",
+	  "pages/upload/upload"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,6 +21,12 @@
           "iconPath": "images/tap_bar_01.png",
           "selectedIconPath": "images/tap_bar_01_active.png",
           "text": "首页"
+        },
+        {
+          "pagePath": "pages/hot/hot",
+          "iconPath": "images/tap_bar_02.png",
+          "selectedIconPath": "images/tap_bar_02_active.png",
+          "text": "热榜"
         },
         {
           "pagePath": "pages/upload/upload",
