@@ -1,0 +1,8 @@
+<view class="container">
+<view class="queryhot">垃圾分类搜索热榜</view>
+<scroll-view scroll-y="true" class="scrollview" hidden="{{hideScroll}}" style="{{arrayHeight>340?'height:90%':''}}">
+  <view wx:for="{{bindSource}}">
+    <view id="{{index}}" bindtap="query" class="itemview">{{item.name}}<text wx:if="{{item.type == 0}}">可回收垃圾</text><text wx:elif="{{item.type == 1}}">有害垃圾</text><text wx:elif="{{item.type == 2}}">厨余（湿）垃圾</text><text wx:elif="{{item.type == 3}}">其他（干）垃圾</text></view>
+  </view>
+</scroll-view>
+</view>
