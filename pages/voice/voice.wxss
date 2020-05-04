@@ -1,0 +1,62 @@
+
+.boxs{
+  text-align: center;
+  position: relative;
+  top: 600rpx;
+}
+.boxs text{
+  display: block;
+}
+.boxs text:nth-of-type(1){
+  background: #fff;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10rpx;
+  color: Blue;
+  font-size: 85rpx;
+  margin: 20rpx auto;
+}
+.boxs text:nth-of-type(2){
+  font-size: 40rpx;
+}
+.body{
+  position: absolute;
+  padding-bottom: 100rpx;
+}
+.bt{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 69;
+  height: 100rpx;
+}
+ 
+.btTouch{
+  background: #e2e2e2 !important;
+  color: #333333 !important;
+   width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 69;
+  height: 100rpx;
+}
+.myLuYin{
+ 
+  height: 80rpx;
+  background: greenyellow;
+  border-radius:6rpx;
+  margin: 15rpx 0; 
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #fff;
+}
+ 
+.center{
+  width: 90%;
+  margin: 0 auto;
+}
