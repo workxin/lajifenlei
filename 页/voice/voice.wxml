@@ -1,0 +1,7 @@
+<!--pages/sear/voice/voice.wxml-->
+<view class="boxs">
+  <text class="icon-voicefill" bindtouchstart="touchStart" bindtouchend="touchEnd"></text>
+  <text>请点击话筒说话</text>
+</view>
+
+ 
